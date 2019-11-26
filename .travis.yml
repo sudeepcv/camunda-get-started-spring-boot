@@ -1,0 +1,10 @@
+language: java
+jdk: openjdk8
+script: mvn package -DskipTests
+deploy:
+  app: camunda-dev
+  provider: heroku
+  api_key:
+    secure: PtkNNtb+aWlAnrMhUwX/aRyGBi8fJ/67Srm7TpCGTHTtkBR43rzmcOnVqNL4sqFAcstXBpY1lc79uQgzAiGUF+WKD65hyRa52AqHxee2eeF+7zwPF8F2kr78FdbXRAnkqmcULLdJ0WbdDeN8jmwuo+81l87yo2+dZsktSJ0xhrh7qrBHHXiOfV0vHFUcz7hE5yzs7pBxf7R3goCc/jfzkfzBWCQInhDaNaKNTppc5/Tfh+BIQRDvXf/Vo+WMQqUvzRZ+pfFSrShZXCBXsHG3qOwLfD5FI9yIBqfVfWl9Lsg1zfy/KZ1nxWgu0w0u9jxlL1F4xl6XqnelNjwdAI6lV9+QzDOc+dDkDwClonYnpQ2c8m/tRUqxZU6ZVGJ/QvecJ4xJO36ewQUB3RAAcwMt1dCxaCVx94StrTGA8uu8OJp23IoYLaQD0XcUp/Sj9KlZFIppxUAxVLUVDGVGs/vOWjn7X10/9xOt9ihvaRushQZwYyhAWS3fh/rwZ2/R64Gk+9fRBSzKWjxcuUvRxIcACKWBO84THk6x4FROoO/UgpWCra6Pmg4R0naPm6Fq810o2rMv2KGu59sF6F8H515OsNQ+ubhxBj2AtaGSBfxfKXfNsvBol7h+TkGjsEcfFM5dMOAR76rcvzPvSlmogamSfg3YydiXjNnG6f9oRDzg+zQ=
+  on:
+    repo: sudeepcv/camunda-get-started-spring-boot
