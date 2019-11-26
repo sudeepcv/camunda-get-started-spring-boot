@@ -1,4 +1,6 @@
-# camunda BPM - Getting Started with camunda BPM and Spring Boot
+# camunda BPM - Getting Started with camunda BPM and Spring Boot [![Build Status](https://travis-ci.org/sudeepcv/camunda-get-started-spring-boot.svg?branch=master)](https://travis-ci.org/sudeepcv/camunda-get-started-spring-boot)
+
+ Hosted : https://camunda-dev.herokuapp.com
 
 This Repository contains the example Spring Boot application for the guide at [camunda.org](http://camunda.org/get-started/spring-boot.html).
 
