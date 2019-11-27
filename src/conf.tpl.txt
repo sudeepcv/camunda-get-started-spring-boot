@@ -1,0 +1,5 @@
+Hi, ${NAME} welcome 
+
+#if( $CONDITION )
+  Condition 
+#end
